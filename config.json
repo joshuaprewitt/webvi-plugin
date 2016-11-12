@@ -1,0 +1,23 @@
+{
+    "buttonIconCls": "webvi_plugin-icon",
+   "buttonLabelToken": "webvi_plugin.pluginTitle",
+    "buttonTooltipToken": "webvi_plugin.pluginTitle",
+    "orderWeight": 2,
+    "permission": "",
+    "resources": {
+       "*": {
+           "js": [
+               "/packages/local/webvi_plugin/webvi_plugin.js"
+           ],
+		   "css": [
+               "/packages/local/webvi_plugin/resources/css/webvi_plugin.css"
+           ]
+       },
+       "en": {
+           "json": [
+               "/packages/local/webvi_plugin/resources/json/locales/en.json"
+           ]
+       }
+    },
+    "routeToken": "webvi_plugin"
+}
